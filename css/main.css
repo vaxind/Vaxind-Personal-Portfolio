@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-header {
+    background-image: url(/img/wallpapermain.jpg);
+    background-size: cover;
+    padding-bottom: 200px;
+}
+
+.main-text {
+    padding: 0.7em;
+    text-align: center;
+    color: white;
+    font-size: 100px;
+}
+
+.main-sub {
+    text-align: center;
+    color: white;
+    font-size: 2em;
+}
+
+.nav ul {
+    margin: 0px;
+}
+
+.nav li {
+    display: inline;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(128, 128, 128, 3);
+}
+
+.main-nav li {
+    padding: 0 4%;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: rgba(128, 128, 128, .3);
+}
+
+.about-text {
+    text-align: center;
+    padding: 1em;
+    font-size: 60px;
+    border-bottom: 2px solid black;
+    flex-wrap: wrap;
+}
+
+.ab-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    border-radius: 100px;
+}
+
+.about {
+    text-align: center;
+    padding: 0px 10px;
+}
+
+.about p {
+    padding: 0px 500px;
+    font-size: 20px;
+}
+
+.about h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.find-img {
+    width: 6%;
+}
+
+.find {
+    background-color: #0D2137;
+    background-size: cover;
+}
+
+.find-text {
+    color: white;
+    text-align: center;
+    padding-top: 2em;
+    font-size: 60px;
+}
+
+.footer-nav img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1em;
+}
+
+.footer-down {
+    text-align: center;
+    font-weight: bold;
+}
+
+.footer-down a {
+    text-decoration: none;
+    color: #0973B6;
+}
