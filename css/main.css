@@ -22,7 +22,7 @@ html, body {
 }
 
 .main-text {
-    padding: 0.7em;
+    padding: 0.7em 0em;
     text-align: center;
     color: white;
     font-size: 100px;
