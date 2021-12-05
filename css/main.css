@@ -5,6 +5,8 @@
 * {
     font-family: 'Ubuntu', sans-serif;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 
 }
 
@@ -67,15 +69,17 @@ html, body {
     padding: 1em;
     font-size: 60px;
     border-bottom: 2px solid black;
-    flex-wrap: wrap;
+    
 }
 
 .ab-img {
-    display: block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
     width: 15%;
     border-radius: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .about {
@@ -84,8 +88,16 @@ html, body {
 }
 
 .about p {
-    padding: 0px 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
     font-size: 20px;
+    margin: 0 auto;
+    height: 90%;
+    text-align: center;
+    padding: 30px;
 }
 
 .about h2 {
@@ -95,6 +107,7 @@ html, body {
 
 .find-img {
     width: 6%;
+    display: flex;
 }
 
 .find {
@@ -104,9 +117,17 @@ html, body {
 
 .find-text {
     color: white;
-    text-align: center;
     padding-top: 2em;
     font-size: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 90%;
+    text-align: center;
+    padding: 30px;
 }
 
 .footer-nav img {
@@ -119,6 +140,9 @@ html, body {
 .footer-down {
     text-align: center;
     font-weight: bold;
+    background-color: #00152b;
+    color: white;
+    padding: 1em 0em;
 }
 
 .footer-down a {
@@ -126,3 +150,49 @@ html, body {
     color: #0973B6;
 }
 
+/* Projects section */
+
+.ab-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 90%;
+    text-align: center;
+    padding: 30px;
+    width: 15%;
+    text-decoration: none;
+    background-color: rgba(128, 128, 128, .3);
+    color: white;
+    border-radius: 10px;
+    border-color: black;
+}
+
+.project-row {
+    border-bottom: 1px solid black;
+    padding: 1em 0em;
+    margin: 1em;
+}
+
+.prj-name {
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.prj-release {
+    padding-right: 10px;
+}
+
+.prj-btn {
+    background-color: #0D2137;
+    border: 1px solid #0D2137;
+    color: white;
+    padding: .5em 2em;
+    border-radius: 10px;
+}
+
+.footer-nav li {
+    list-style-type: none;
+}
